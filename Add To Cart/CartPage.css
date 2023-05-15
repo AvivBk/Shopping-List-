@@ -1,0 +1,88 @@
+html, body 
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #D1D1D1;
+    border-radius: 0.5em;
+    border: 1px solid #000000;
+    user-select: none;
+}
+.main-container
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin: 30px auto;
+    max-width: 320px;
+}
+.cart-Imgage
+{
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 100px; 
+}
+input
+{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: #432000;
+    background-color: #DCE1EB;
+    border: 0;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.btn-container
+{
+    align-content: center;
+    margin: 2px; 
+}
+
+button 
+{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: #FDFDFD;
+    width: 100%;
+    background-color: #AC485A;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+button:hover 
+{
+    background-color: #432000;
+    cursor: pointer;
+}
+ul
+{
+    text-align:justify;
+    font-family: 'Rubik', sans-serif;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+ul li 
+{    
+    padding: 15px;
+    border-radius:8px; 
+    flex-grow: 1;
+    text-align: center;
+    color: #432000;
+    font-size: 20px;
+    background-color: #DFE58F;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    
+    
+}
+ul li:hover {
+    background-color: #FFECC7;
+    cursor: pointer;
+}
